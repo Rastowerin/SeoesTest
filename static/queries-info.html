@@ -467,6 +467,7 @@
                     table.append(newRow);
                 }
 
+                document.getElementById("head_t").querySelector('td').textContent = `query ${data.length} строк`
             })
             .catch(error => {
                 // Обработка ошибки
